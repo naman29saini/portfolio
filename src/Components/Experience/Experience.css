@@ -1,0 +1,99 @@
+#experience{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+.expTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.exps{
+    margin: 1.5rem;
+    text-align: left;
+    width: 100vw;
+    max-width: 80%;
+}
+.exp{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.75rem;
+    background: rgb(50, 50, 50);
+}
+.expImg{
+    object-fit: cover;
+    height: 5rem;
+    width: 5rem;
+    margin-right: 2rem;
+}
+.expText>ul{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.expText ul li{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.expText ul li{
+    list-style: square;
+    cursor: pointer;
+}
+.expText ul li:hover{
+    list-style:decimal;
+}
+
+@media screen and (max-width:840px){
+    .exp{
+       font-size: 2vw;
+    }
+    .expText ul li{
+        font-size: 0.5rem;
+    }
+    .expText>h2{
+        font-size: 1.3rem;
+    }
+    .expText>h3{
+        font-size: 1rem;
+    }
+    #experience{
+        width: 130vw;
+    }
+    .expImg{
+        height: 4rem;
+        width: 4rem;
+    }
+}
+@media screen and (max-width:500px){
+    .exp{
+       font-size: 1vw;
+    }
+    .expText ul li{
+        font-size: 0.5rem;
+    }
+    .expText>h2{
+        font-size: 0.8rem;
+    }
+    .expText>h3{
+        font-size: 0.5rem;
+    }
+    #experience{
+        width: 160vw;
+    }
+    .expImg{
+        height: 3rem;
+        width: 3rem;
+    }
+    .expTitle{
+        font-size: 2rem;
+    }
+    
+}

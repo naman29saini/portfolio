@@ -1,0 +1,22 @@
+.footer{
+    width: 100vw;
+    height: 4rem;
+    background: rgb(40, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    font-weight: 300;
+}
+@media screen and (max-width: 840px) {
+    .footer{
+        width: 130vw;
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 500px) {
+    .footer{
+        width: 172vw;
+        font-size: 0.6rem;
+    }
+}

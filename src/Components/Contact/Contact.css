@@ -1,0 +1,102 @@
+#contact{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.contactPageTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.contactDesc{
+    font-size: 1rem;
+    font-weight: 300;
+    max-width: 50rem;
+    padding: 0 1rem;
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+.name, .email, .msg{
+    font-size: medium;
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    max-width: 40rem;
+    border: none;
+    background: rgb(40, 40, 40);
+    border-radius: 0.5rem;
+}
+.submitBtn{
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
+}
+.link1{
+    filter: invert(1);
+}
+.x{
+    height: 2rem;
+    width: 2rem;
+}
+@media screen and (max-width:840px){
+    #contact{
+        width: 130vw;
+    }
+    
+}
+@media screen and (max-width:500px){
+    
+    #contact{
+        width: 160vw;
+    }
+    .contactPageTitle{
+        font-size: 2rem;
+    }
+    .contactDesc{
+        font-size: 0.6rem;
+    }
+    .name, .email, .msg{
+        font-size: small;
+        
+    }
+    .link{
+        
+        height: 2rem;
+        width: 2rem;
+    }
+    .x{
+        height: 1rem;
+        width: 1rem;
+    }
+}
