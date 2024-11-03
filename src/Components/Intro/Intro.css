@@ -37,6 +37,10 @@
     font-weight: 300;
     letter-spacing: 1px;
 }
+.introBtn{
+    display: flex;
+    gap: 10px;
+}
 .btn{
     background: white;
     margin: 1rem 0;
