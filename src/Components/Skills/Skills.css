@@ -65,9 +65,9 @@
     .skillBarText>h3{
         font-size: 1rem;
     }
-    #skills{
+    /* #skills{
         width: 130vw;
-    }
+    } */
     .skillBarImg{
         height: 4rem;
         width: 4rem;
@@ -86,9 +86,9 @@
     .skillBarText>h3{
         font-size: 0.5rem;
     }
-    #skills{
+    /* #skills{
         width: 160vw;
-    }
+    } */
     .skillBarImg{
         height: 3rem;
         width: 3rem;

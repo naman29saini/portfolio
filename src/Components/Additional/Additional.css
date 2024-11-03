@@ -40,16 +40,16 @@
     color: yellow;
 }
 @media screen and (max-width:840px){
-    #additional{
+    /* #additional{
         width: 130vw;
-    }
+    } */
     
 }
 @media screen and (max-width:500px){
     
-    #additional{
+    /* #additional{
         width: 160vw;
-    }
+    } */
     .addTitle{
         font-size: 2rem;
     }

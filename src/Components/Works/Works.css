@@ -95,16 +95,16 @@
 }
 
 @media screen and (max-width:840px){
-    #works{
+    /* #works{
         width: 130vw;
-    }
+    } */
     
 }
 @media screen and (max-width:500px){
     
-    #works{
+    /* #works{
         width: 160vw;
-    }
+    } */
     .worksTitle{
         font-size: 2rem;
     }

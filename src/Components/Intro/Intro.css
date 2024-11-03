@@ -56,9 +56,9 @@
 }
 
 @media screen and (max-width:840px){
-    #intro{
-        width: 130vw;
-    }
+    /* #intro{
+        width: 170vw;
+    } */
     .bg{
         right: -30vw;
     }
@@ -70,12 +70,12 @@
     }
 }
 @media screen and (max-width:400px){
-    #intro{
+    /* #intro{
         width: 160vw;
-    }
-    .bg{
+    } */
+    /* .bg{
         right: -40vw;
-    }
+    } */
     .introContent{
         font-size: 7vw;
     }

@@ -10,13 +10,13 @@
 }
 @media screen and (max-width: 840px) {
     .footer{
-        width: 130vw;
+        /* width: 170vw; */
         font-size: smaller;
     }
 }
 @media screen and (max-width: 500px) {
     .footer{
-        width: 172vw;
+        /* width: 172vw; */
         font-size: 0.6rem;
     }
 }

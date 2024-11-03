@@ -64,9 +64,9 @@
     .expText>h3{
         font-size: 1rem;
     }
-    #experience{
+    /* #experience{
         width: 130vw;
-    }
+    } */
     .expImg{
         height: 4rem;
         width: 4rem;
@@ -85,9 +85,9 @@
     .expText>h3{
         font-size: 0.5rem;
     }
-    #experience{
+    /* #experience{
         width: 160vw;
-    }
+    } */
     .expImg{
         height: 3rem;
         width: 3rem;
