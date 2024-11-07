@@ -13,6 +13,10 @@ import Clock2 from '../../assests/clock2.jpg'
 import Clock3 from '../../assests/clock3.jpg'
 import Netflix1 from '../../assests/netflix1.jpg'
 import Netflix2 from '../../assests/netflix2.jpg'
+import TicTacToe1 from '../../assests/tictactoe1.jpg'
+import TicTacToe2 from '../../assests/tictactoe2.jpg'
+import NewsApp1 from '../../assests/newsapp1.jpg'
+import NewsApp2 from '../../assests/newsapp2.jpg'
 const Works = () => {
   return (
     <section id="works">
@@ -95,6 +99,37 @@ const Works = () => {
                         staying up-to-date with the latest technologies and techniques in web
                         development.
                         </li>
+                    </ul>
+                </div>
+            </div>
+            <div className="project">
+        <h2><a href="https://tictactoebyns.vercel.app/" >Tic Tac Toe Game</a></h2>
+                <div className="projectImgs">
+                <img src={TicTacToe1} alt="TicTacToe logo" className="projectImg" />
+                <img src={TicTacToe2} alt="TicTacToe logo" className="projectImg" />
+                </div>
+                <div className="projectText">  
+                    <h5>Tech Stack:   ReactJS, CSS3 , React icons, JS
+                    </h5>
+                    <ul>
+                        <li>Developed a TicTacToe Web App using ReactJs and CSS3 to enhance skills in Problem Solving and Game Development.</li>
+                        <li>Enhanced problem-solving abilities by troubleshooting and resolving
+                        Javscript issues during the project development process.</li> 
+                    </ul>
+                </div>
+            </div>
+            <div className="project">
+        <h2><a href="https://newsappbyns.vercel.app/" >News Web App</a></h2>
+                <div className="projectImgs">
+                <img src={NewsApp1} alt="NewsApp logo" className="projectImg" />
+                <img src={NewsApp2} alt="NewsApp logo" className="projectImg" />
+                </div>
+                <div className="projectText">  
+                    <h5>Tech Stack:   ReactJS, Bootstrap CSS , News API , JS
+                    </h5>
+                    <ul>
+                        <li>NewsApp is a responsive web application designed to deliver the latest news from various sources in real-time. It allows users to browse, search, and filter news articles based on categories, including politics, technology, sports, entertainment, and more. The app fetches news articles from a reliable news API, displaying them in an intuitive and engaging layout.</li>
+                        <li>Key Feartures: Real Time News Update, Searching and Filtering, Responsive Design, Personalized Feed</li>
                     </ul>
                 </div>
             </div>
