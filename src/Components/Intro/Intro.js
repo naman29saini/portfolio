@@ -7,7 +7,7 @@ import Resume from '../../assests/resume.png'
 
 const Intro = () => {
   const downloadFile = () => {
-    window.location.href = "https://drive.google.com/file/d/1dBAV4xbcZ_yZFxWStcetS125uVsv7T9g/view?usp=drivesdk"
+    window.location.href = "https://drive.google.com/file/d/1DngusmmU_nzkt42FQiGsu-oRGMRH3EjV/view?usp=sharing"
   }
   return (
     <section id="intro">

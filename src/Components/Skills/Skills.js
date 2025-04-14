@@ -26,7 +26,7 @@ const Skills = () => {
                         UNIVERSITY, KURUKSHETRA
                     </h3>
                     <ul>
-                        <li>Secured 9.26 CGPA</li>
+                        <li>Secured 9.28 CGPA</li>
                         <li>National Cadet Corps-Senior Division</li>
                     </ul>
                 </div>

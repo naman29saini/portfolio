@@ -1,12 +1,30 @@
 import React from 'react'
 import './Experience.css'
 import OOHR from '../../assests/oohr-removebg-preview.png'
+import NIT from '../../assests/nit2.png'
 
 const Experience = () => {
   return (
     <section id="experience">
       <h2 className="expTitle">Work Experience</h2>
        <div className="exps">
+       <div className="exp">
+                <img src={NIT} alt="nit logo" className="expImg" />
+                <div className="expText">
+                    <h2>
+                    ISEA Project Phase-lll of MeitY(NIT,KKR) (January 2025- March 2025)
+                    </h2>
+                    <h3>Ransomware Detection using Transformer Encoder
+                    </h3>
+                    <ul>
+                        <li>Developed a ransomware detection model using Transformer Encoder architecture.</li>
+                        <li>Utilized The CIC-MalMem-2022 dataset for training and evaluation.</li>
+                        <li>Applied data normalization and standardization using Python libraries (NumPy, Pandas, Scikit-learn).</li>
+                        <li>Achieved high accuracy in classification; evaluated model performance using confusion matrix and visualization with Matplotlib/Seaborn.</li>
+                    </ul>
+                </div>
+            </div>
+
         <div className="exp">
                 <img src={OOHR} alt="oohr logo" className="expImg" />
                 <div className="expText">
