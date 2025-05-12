@@ -17,12 +17,33 @@ import TicTacToe1 from '../../assests/tictactoe1.jpg'
 import TicTacToe2 from '../../assests/tictactoe2.jpg'
 import NewsApp1 from '../../assests/newsapp1.jpg'
 import NewsApp2 from '../../assests/newsapp2.jpg'
+import GreenCart from '../../assests/GreenCart.jpg'
+import GreenCart2 from '../../assests/GreenCart2.jpg'
 const Works = () => {
   return (
     <section id="works">
        <h2 className="worksTitle">My Portfolio</h2>
        <span className="worksDesc">I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experience to help businesses to achieve their goals and create a strong online presence.</span>
         <div className="projects">
+
+        <div className="project">
+        <h2><a href="https://greencartbyns.vercel.app/" target="_blank">Green Cart Web App</a></h2>
+                <div className="projectImgs">
+                <img src={GreenCart} alt="GreenCart App logo" className="projectImg" />
+                <img src={GreenCart2} alt="GreenCart App logo" className="projectImg" />
+                </div>
+                <div className="projectText">  
+                    <h5>Tech Stack: ReactJS, Tailwind CSS, useAppContext, Javascript, HTML
+                    </h5>
+                    <ul>
+                        <li>GreenCart is a user-friendly eCommerce platform built with React.js and Tailwind CSS, designed to streamline online grocery shopping. Users can seamlessly browse a wide range of grocery items, add them to their cart, and place orders with ease.  
+                        </li>
+                        <li>The application features a dedicated Admin Panel for sellers to upload and manage product listings efficiently.</li>
+                        <li>Upcoming enhancements include order management and real-time inventory updates, making GreenCart a comprehensive solution for both consumers and sellers in the grocery sector.</li>
+                    </ul>
+                </div>
+            </div>
+
         <div className="project">
         <h2><a href="https://cryptotrackingbynaman.vercel.app/" target="_blank">Crypto Tracking Web App</a></h2>
                 <div className="projectImgs">
